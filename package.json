@@ -1,0 +1,27 @@
+{
+  "name": "acme-employee-directory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nunjucks": "^3.0.1",
+    "pg": "^7.4.1",
+    "sequelize": "^4.33.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:dev": "DATABASE_URL=postgres://localhost/acme_employee_directory nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmauras24/acme-employee-directory.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmauras24/acme-employee-directory/issues"
+  },
+  "homepage": "https://github.com/jmauras24/acme-employee-directory#readme"
+}
